@@ -30,7 +30,7 @@ public class FromHtmlActivity extends Activity {
     @Override
     public Drawable getDrawable(String source) {
       int path = context.getResources().getIdentifier(source, "drawable",
-          BuildConfig.APPLICATION_ID);
+          /*BuildConfig.APPLICATION_ID*/"com.sqisland.android.advanced_textview");
       Drawable drawable = context.getResources().getDrawable(path);
       drawable.setBounds(0, 0, drawable.getIntrinsicWidth(),
           drawable.getIntrinsicHeight());

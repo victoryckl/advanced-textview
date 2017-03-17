@@ -1,5 +1,8 @@
 package com.sqisland.android.advanced_textview;
 
+import android.animation.FloatEvaluator;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.LinearGradient;
@@ -12,13 +15,9 @@ import android.text.TextPaint;
 import android.text.format.DateUtils;
 import android.text.style.CharacterStyle;
 import android.text.style.UpdateAppearance;
+import android.util.Property;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
-
-import com.nineoldandroids.animation.FloatEvaluator;
-import com.nineoldandroids.animation.ObjectAnimator;
-import com.nineoldandroids.animation.ValueAnimator;
-import com.nineoldandroids.util.Property;
 
 public class AnimatedRainbowSpanActivity extends Activity {
   @Override
